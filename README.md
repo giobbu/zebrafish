@@ -8,7 +8,7 @@ The data have been obtained using idtracker.ai. The data are related to trajecto
 * Fishes probability density within tank
 * Cosine similarity among fishes to assess how parallel are all fish to each other
 
-## ML model to predict fish trajectories
+### ML model to predict fish trajectories
 * LSTM/GRU for multi-step ahead fish trajectory prediction
 
 ### References
