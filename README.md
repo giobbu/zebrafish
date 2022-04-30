@@ -4,6 +4,13 @@ The data have been obtained using idtracker.ai. The data are related to trajecto
 
 * [Data can be downloaded here](https://drive.google.com/drive/folders/1Oq7JPmeY3bXqPXc_oTUwUZbHU-m4uq_5)
 
+### Zebrafish data analysis:
+* Fishes probability density within tank
+* Cosine similarity among fishes to assess how parallel are all fish to each other
+
+## ML model to predict fish trajectories
+* LSTM/GRU for multi-step ahead fish trajectory prediction
+
 ### References
 This repository is based on the following works:
 * [idTracker: tracking individuals in a group by automatic identification of unmarked animals](https://www.idtracker.es/) 
