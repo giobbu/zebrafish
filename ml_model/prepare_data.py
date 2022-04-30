@@ -13,7 +13,7 @@ parser.add_argument('--e', type=int,  help='choose experiment 1 or 2 or 3')
 args = parser.parse_args()
 
 # load experiment zebrafish
-frames_dict = np.load('folder_'+str(args.f)+'/'+ str(args.e)+'.npy', allow_pickle=True).item()
+frames_dict = np.load('../folder_'+str(args.f)+'/'+ str(args.e)+'.npy', allow_pickle=True).item()
 
 # get trajectories dict for each fish 
 n_fish = frames_dict.get('trajectories').shape[1]

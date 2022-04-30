@@ -17,7 +17,7 @@ parser.add_argument('--i', type=int, default=30, help='interval animation')
 args = parser.parse_args()
 
 # load experiment zebrafish
-frames_dict = np.load('folder_'+str(args.f)+'/'+ str(args.e)+'.npy', allow_pickle=True).item()
+frames_dict = np.load('../folder_'+str(args.f)+'/'+ str(args.e)+'.npy', allow_pickle=True).item()
  
 
 ########### Probability
