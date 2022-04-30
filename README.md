@@ -1,5 +1,7 @@
 # COLLECTIVE MOTION IN ZEBRAFISHES
 ### DATA
+The data have been obtained using idtracker.ai. The data are related to trajectories for 60, 80 and 100 fish. Each subfolder has as a name the number of individuals in the trajectories.
+
 * [Data can be downloaded here](https://drive.google.com/drive/folders/1Oq7JPmeY3bXqPXc_oTUwUZbHU-m4uq_5)
 
 ### Reference
