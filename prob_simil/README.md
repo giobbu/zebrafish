@@ -3,7 +3,8 @@
 ## Environment setup
 create conda environment:
 ```{r}
-conda env create -f environment.yml 
+conda env create --n fish -f environment.yml 
+conda activate fish
 ```
 
 ## Execute script
