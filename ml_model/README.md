@@ -9,17 +9,19 @@ conda activate tf-fish
 
 
 
-## Execute ML experiments
+## ML experiments
 
 * `prepare_data.py`:
-   ** `--f`
-   ** `--e`
+  * `--f`
+  * `--e`
 
 * `data_loader.py`:
-   ** `--tr`
-   ** `--val`
-   ** `--fld`
+  * `--tr`
+  * `--val`
+  * `--fld`
 
 * `train.py`:
+
+
 * `infer.py`:
 
