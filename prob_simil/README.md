@@ -12,9 +12,9 @@ run command:
 python fish_prob_parall.py --f 100 --e 2 --i 20
 ```
 notes:
-* `--f`
-* `--e`
-* `--i`
+* `--f`: select experiment based on number of fishes (i.e. 60, 80, or 100)
+* `--e`: select experiment 1, 2, or 3
+* `--i`: set interval between frames in animation
 
 
 
