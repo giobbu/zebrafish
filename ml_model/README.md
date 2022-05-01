@@ -41,5 +41,10 @@ conda activate tf-fish
   * `--n`: file name trained model
 
 ## Example
+⋅) prepare dataset for experiment 1 with 100 fishes.
+```{r}
+ python prepare_data.py --f 100 --e 1
+```  
 
- 
+
+
