@@ -45,16 +45,21 @@ conda activate tf-fish
 ```{r}
  python prepare_data.py --f 100 --e 1
 ```  
+
 2. load dataset `dataset.npy`, scale and split it into:
   * `fold_{1,5}.pkl`: 5 folders datasets for future work (hyperparameter tuning and model cross-validation
   * `scaled_train_test.pkl`: dataset for final training and testing (80-10) of model (once validated) for future work 
   * `scaled_train_val_test.pkl`: dataset for naive training-validation-testing (70-10-20) model prediction
-
 ```{r}
 python data_loader.py --tr 80 --val 10 --fld 5
 ```
 
-3. load `scaled_train_val_test.pkl`, consider traing and validation datasets for training, load model and save trained model to ''
+3. load `scaled_train_val_test.pkl`, consider traing and validation datasets for training, create LSTM model and save trained model to `model_4i_2o`
+```{r}
+python train.py --i 4 --o 2 --ep 50 --b 64 --ut 100 --ufc 100 --dr 0.01 --l1 0.0001 --lr 0.0001 --save 'model_4i_2o'
+```
 
-
-
+4. load trained model `model_4i_2o` and perform predictions on test set from `scaled_train_val_test.pkl`
+```{r}
+python infer.py --i 4 --o 2 --n 'model_4i_2o'
+```
