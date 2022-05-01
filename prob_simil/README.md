@@ -1,7 +1,7 @@
 # Data analysis
 
 ## Environment setup
-create conda environment:
+create and activate conda environment:
 ```{r}
 conda env create --n fish -f environment.yml 
 conda activate fish
