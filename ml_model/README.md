@@ -21,9 +21,18 @@ conda activate tf-fish
   * `--fld`: number of folders for temporal cross-validation (default 5)
 
 * `train.py`:
-  * `-- `
-  *
-  *
+  * `--i`: input sequence (past observations)
+  * `--o`: output sequence (future predictions)
+  * `--b`: batch size
+  * `--s`: set seed for reproducibility 
+  * `--ut`: number of hidd units temporal layers
+  * `--ufc`: number of hidd units fully connected
+  * `--lr`: learning rate
+  * `--dr`: drop rate
+  * `--ep`: number of epochs
+  * `--l1`: l1 regularizer
+  * `--l2`: l2 regularizer
+  * `--save`: name trained model to save
 
 * `infer.py`:
 

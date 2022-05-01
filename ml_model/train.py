@@ -16,9 +16,9 @@ import matplotlib.animation as animation
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--i', default = 12, type=int, help = 'Input sequence')
-parser.add_argument('--o', default = 4, type=int, help = 'Output sequence')
-parser.add_argument('--b', default = 32, type=int, help = 'Batch size')
+parser.add_argument('--i', default = 6, type=int, help = 'Input sequence')
+parser.add_argument('--o', default = 3, type=int, help = 'Output sequence')
+parser.add_argument('--b', default = 64, type=int, help = 'Batch size')
 parser.add_argument('--s', default = 42, type=int, help = 'set seed')
 parser.add_argument('--ut', default = 100, type=int, help = 'set units temporal layer')
 parser.add_argument('--ufc', default = 50, type=int, help = 'set units fully connected')
