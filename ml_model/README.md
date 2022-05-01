@@ -22,7 +22,7 @@ conda activate tf-fish
 
 * `train.py`: create model architecture from `models.py` and train it on the training-validation sets from `scaled_train_val_test.pkl`. Current model choices are LSTM and GRU encoder-decoder.
   * `--i`: input sequence (past observations)
-  * o`: output sequence (future predictions)
+  * `--o`: output sequence (future predictions)
   * `--b`: batch size
   * `--s`: set seed for reproducibility 
   * `--ut`: number of hidd units temporal layers

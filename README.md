@@ -5,10 +5,12 @@ The data have been obtained using idtracker.ai. The data are related to trajecto
 * [Data can be downloaded here](https://drive.google.com/drive/folders/1Oq7JPmeY3bXqPXc_oTUwUZbHU-m4uq_5)
 
 ### Zebrafish data analysis:
+`prob_simil`:
 * Fishes probability density within tank
 * Cosine similarity among fishes to assess how parallel are all fish to each other
 
 ### ML model to predict fish trajectory and speed
+`ml_model`:
 * LSTM/GRU for multi-step ahead fish speed and trajectory prediction
 
 ### References
