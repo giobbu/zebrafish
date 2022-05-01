@@ -19,5 +19,10 @@ run analysis considering experiment 2 with 100 fishes and interval 20:
 python fish_prob_parall.py --f 100 --e 2 --i 20
 ```
 
+#### Cosine Similarity
+<img src="./ml_model/predictions_4i_2o.gif" width="400" height="400">
 
 
+#### Probability Density
+Experiment 2 Fishes 100
+<img src="./prob_simil/Fig_f100_e2.png" width="400" height="400">
