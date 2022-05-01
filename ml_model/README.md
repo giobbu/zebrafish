@@ -41,7 +41,7 @@ conda activate tf-fish
   * `--n`: file name trained model
 
 ## Example
-1. prepare dataset for experiment 1 with 100 fishes and save it to `dataset.npy`
+1. prepare dataset based on focal fish id-0 considering experiment 1 with 100 fishes and save it to `dataset.npy`
 ```{r}
  python prepare_data.py --f 100 --e 1
 ```  
