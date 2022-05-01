@@ -1,6 +1,6 @@
 # ML model for fish speed and trajectories predictions
 
-![Alt Text]<img src="./predictions_4i_2o.gif" width="400" height="400">
+<img src="./predictions_4i_2o.gif" width="400" height="400">
 
 ## Environment Installation
 create and activate conda environment:
