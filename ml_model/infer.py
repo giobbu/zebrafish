@@ -75,7 +75,7 @@ for (step, (inp_, targ_)) in tqdm(enumerate(tf_test)):
 #    plt.show()
 
 # animated plot comparing predictions and targets
-anim = fish_movie_pred_targ(traj_pred_l, traj_targ_l, 3000, 'trial', 10)
+anim = fish_movie_pred_targ(traj_pred_l, traj_targ_l, 1000, 'trial', 10)
 plt.xlim(-1, 1)
 plt.ylim(-1, 1)
 plt.show()

@@ -87,11 +87,12 @@ def fish_movie_pred_targ(traj_pred, traj_targ, n_frames, title, interv):
         return sc_pred, arr_pred, sc_targ, arr_targ
     
     fig, ax = plt.subplots(figsize=(5,5)) 
-    sc_pred = ax.scatter(x_pred, y_pred, s=2, color ='red')
+    sc_pred = ax.scatter(x_pred, y_pred, s=2, color ='red', label='predictions')
     arr_pred = ax.quiver(x_pred, y_pred, vx_pred, vy_pred, color='orange')
-    sc_targ = ax.scatter(x_targ, y_targ, s=2, color ='green')
+    sc_targ = ax.scatter(x_targ, y_targ, s=2, color ='green', label='targets')
     arr_targ = ax.quiver(x_targ, y_targ, vx_targ, vy_targ, color='blue')
     tt = ax.text(0., 1.05, 'Frame: ', transform = ax.transAxes)
+    ax.legend(loc='upper right')
 
     # call the animator
     anim = animation.FuncAnimation(fig, animate, frames=n_frames, interval=interv)
