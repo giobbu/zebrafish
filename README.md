@@ -8,7 +8,7 @@ The data have been obtained using idtracker.ai. The data are related to trajecto
 `prob_simil`:
 * Fishes probability density within tank
 * Cosine similarity among fishes to assess how parallel are all fish to each other
-<img src="./prob_simil/cosine.gif" width="400" height="400">
+<img src="./prob_simil/gif/cos_f100_e2.gif"" width="400" height="400">
 
 ### ML model to predict fish trajectory and speed
 `ml_model`:
