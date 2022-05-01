@@ -1,13 +1,13 @@
 # ML model for fish speed and trajectories predictions
 
+![Alt Text](./predictions_4i_2o.gif)
+
 ## Environment Installation
 create and activate conda environment:
 ```{r}
 conda env create -n tf-fish -f tf-environment.yml
 conda activate tf-fish 
 ```
-
-
 
 ## ML experiments
 
