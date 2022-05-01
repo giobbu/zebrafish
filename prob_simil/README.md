@@ -7,16 +7,17 @@ conda env create --n fish -f environment.yml
 conda activate fish
 ```
 
-## Execute script
-run command:
+## Run analysis
+* `fish_prob_parall.py`: calculates the probability density of fishes within the tank and the cosine similarity between different fish movements.
+  * `--f`: select experiment based on number of fishes (i.e. 60, 80, or 100)
+  * `--e`: select experiment 1, 2, or 3
+  * `--i`: set interval between frames for `matplotlib.animation`
+
+## Example
+run analysis considering experiment 2 with 100 fishes and interval 20:
 ```{r}
 python fish_prob_parall.py --f 100 --e 2 --i 20
 ```
-notes:
-* `--f`: select experiment based on number of fishes (i.e. 60, 80, or 100)
-* `--e`: select experiment 1, 2, or 3
-* `--i`: set interval between frames in animation
-
 
 
 
