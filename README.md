@@ -12,6 +12,7 @@ The data have been obtained using idtracker.ai. The data are related to trajecto
 ### ML model to predict fish trajectory and speed
 `ml_model`:
 * LSTM/GRU for multi-step ahead fish speed and trajectory prediction
+<img src="./ml_model/predictions_4i_2o.gif" width="400" height="400">
 
 ### References
 This repository is based on the following works:
