@@ -81,7 +81,7 @@ plt.ylim(-1, 1)
 plt.show()
 
 writergif = animation.PillowWriter(fps=30)
-anim.save('lines.gif', writer = writergif)
+anim.save('predictions.gif', writer = writergif)
 
 
 

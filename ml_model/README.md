@@ -20,9 +20,9 @@ conda activate tf-fish
   * `--val`: percentage validation (default 10%)
   * `--fld`: number of folders for temporal cross-validation (default 5)
 
-* `train.py`:
+* `train.py`: create model architecture from `models.py` and train it on the training-validation sets from `scaled_train_val_test.pkl`. Current model choices are LSTM and GRU encoder-decoder.
   * `--i`: input sequence (past observations)
-  * `--o`: output sequence (future predictions)
+  * o`: output sequence (future predictions)
   * `--b`: batch size
   * `--s`: set seed for reproducibility 
   * `--ut`: number of hidd units temporal layers
@@ -34,5 +34,12 @@ conda activate tf-fish
   * `--l2`: l2 regularizer
   * `--save`: name trained model to save
 
-* `infer.py`:
+* `infer.py`: load trained model from `train.py` and evaluate it on test set from `scaled_train_val_test.pkl`. Visualize predictions (to be scaled back) both iteratively or with `matplotlib.animation`.
+  * `--i`: input sequence
+  * `--o`: output sequence
+  * `--it`: iteratively visualize model predictions
+  * `--n`: file name trained model
 
+## Example
+
+ 
