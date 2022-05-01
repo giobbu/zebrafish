@@ -20,11 +20,11 @@ python fish_prob_parall.py --f 100 --e 2 --i 20
 ```
 
 ### Cosine Similarity
-#### * Experiment 2 Fishes 100
+#### Experiment 2 Fishes 100
 <img src="./cosine.gif" width="400" height="400">
-#### * Experiment 1 Fishes 60
+#### Experiment 1 Fishes 60
 
 
 ### Probability Density
-Experiment 2 Fishes 100
+#### Experiment 2 Fishes 100
 <img src="./Fig_f100_e2.png" width="400" height="400">
