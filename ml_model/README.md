@@ -41,10 +41,20 @@ conda activate tf-fish
   * `--n`: file name trained model
 
 ## Example
-⋅) prepare dataset for experiment 1 with 100 fishes.
+1. prepare dataset for experiment 1 with 100 fishes and save it to `dataset.npy`
 ```{r}
  python prepare_data.py --f 100 --e 1
 ```  
+2. load dataset `dataset.npy`, scale and split it into:
+  * `fold_{1,5}.pkl`: 5 folders datasets for future work (hyperparameter tuning and model cross-validation
+  * `scaled_train_test.pkl`: dataset for final training and testing (80-10) of model (once validated) for future work 
+  * `scaled_train_val_test.pkl`: dataset for naive training-validation-testing (70-10-20) model prediction
+
+```{r}
+python data_loader.py --tr 80 --val 10 --fld 5
+```
+
+3. load `scaled_train_val_test.pkl`, consider traing and validation datasets for training, load model and save trained model to ''
 
 
 
